@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+      "title": "Dashkit"
+    })
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+   
+      
+    @@if (navPosition == 'topnav' || demoMode) {
+      @@include("partials/topnav.html", {
+        "category": "pages",
+        "subcategory": "profile",
+        "page": "profile-groups.html"
+      })
+    }
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+    <div class="main-content">
+
+
+      <!-- HEADER -->
+      <div class="header">
+
+        <!-- Image -->
+        <img src="assets/img/covers/profile-cover-1.jpg" class="header-img-top" alt="...">
+        
+        <div class="container">
+
+          <!-- Body -->
+          <div class="header-body mt-n5 mt-md-n6">
+            <div class="row align-items-end">
+              <div class="col-auto">
+                
+                <!-- Avatar -->
+                <div class="avatar avatar-xxl header-avatar-top">
+                  <img src="assets/images/moi.jpg" alt="..." class="avatar-img rounded-circle border border-4 border-body">
+                </div>
+
+              </div>
+              <div class="col mb-3 ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h5 class="header-pretitle">
+                UX UI DESIGNER
+                </h5>
+
+                <!-- Title -->
+                <h1 class="header-title">
+                  Bouhellal Abdellatif
+                </h1>
+
+              </div>
+              <div class="col-12 col-md-auto mt-2 mt-md-0 mb-md-3">
+                
+                 
+
+              </div>
+            </div> <!-- / .row -->
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Nav -->
+                <ul class="nav nav-tabs nav-overflow header-tabs">
+                   
+                  <li class="nav-item">
+                    <a href="profile-groups.html" class="nav-link">
+                     Graphic Design 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="profile-projects.html" class="nav-link active">
+                      UX Design Projects
+                    </a>
+                  </li>
+                  
+                 
+                </ul>
+
+              </div>
+            </div>
+          </div> <!-- / .header-body -->
+
+        </div>
+      </div>
+
+      <!-- CONTENT -->
+      <div data-toggle="lists" data-options='{"valueNames": ["name"]}'>
+        <div class="@@if(navPosition=='sidenav'||navPosition=='combo'){container-fluid}@@if(navPosition=='topnav'){container}" data-toggle="lists" data-options='{"valueNames": ["name"], "listClass": "listAlias"}'>
+         
+
+          <!-- Tab content -->
+          <div class="tab-content">
+            <div class="tab-pane fade active show" id="tabPaneOne" role="tabpanel">
+              <div class="row listAlias">
+                <div class="col-12 col-md-6 col-xl-4">
+
+                  <!-- Card -->
+                  <div class="card">
+                    <a href="project-overview.html">
+                      <img src="assets/img/avatars/projects/project-1.jpg" alt="..." class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                      <div class="row align-items-center">
+                        <div class="col">
+                      
+                          <!-- Title -->
+                          <h4 class="card-title mb-2 name">
+                            <a href="project-overview.html">Shiseido  Project </a>
+                          </h4>
+
+                          <!-- Subtitle -->
+                         
+
+                        </div>
+                        <div class="col-auto">
+                          
+                          <!-- Dropdown -->
+                          <div class="dropdown">
+                            <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <i class="fe fe-more-vertical"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                              <a href="#!" class="dropdown-item">
+                                Action
+                              </a>
+                              <a href="#!" class="dropdown-item">
+                                Another action
+                              </a>
+                              <a href="#!" class="dropdown-item">
+                                Something else here
+                              </a>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div> <!-- / .row -->
+
+                      <!-- Divider -->
+                      <hr>
+
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <div class="row align-items-center no-gutters">
+                            <div class="col-auto">
+
+                              
+                              
+                            </div>
+                            
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="col-auto">
+                          
+                          <!-- Avatar group -->
+                          <div class="avatar-group">
+                            
+                            
+                            
+                            
+                          </div>
+
+                        </div>
+                      </div> <!-- / .row -->
+
+                    </div> <!-- / .card-body -->
+                  </div>
+                  
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">
+
+                  <!-- Card -->
+                  
+
+                   
+                  <div class="card">
+                    <a href="project-overview.html">
+                      <img src="assets/img/avatars/projects/project-1.jpg" alt="..." class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                      <div class="row align-items-center">
+                        <div class="col">
+                      
+                          <!-- Title -->
+                          <h4 class="card-title mb-2 name">
+                            <a href="project-overview.html">Shiseido  Project </a>
+                          </h4>
+
+                          <!-- Subtitle -->
+                         
+
+                        </div>
+                        <div class="col-auto">
+                          
+                          <!-- Dropdown -->
+                          <div class="dropdown">
+                            <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <i class="fe fe-more-vertical"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                              <a href="#!" class="dropdown-item">
+                                Action
+                              </a>
+                              <a href="#!" class="dropdown-item">
+                                Another action
+                              </a>
+                              <a href="#!" class="dropdown-item">
+                                Something else here
+                              </a>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div> <!-- / .row -->
+
+                      <!-- Divider -->
+                      <hr>
+
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <div class="row align-items-center no-gutters">
+                            <div class="col-auto">
+
+                              
+                              
+                            </div>
+                            
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="col-auto">
+                          
+                          <!-- Avatar group -->
+                          <div class="avatar-group">
+                            
+                            
+                            
+                            
+                          </div>
+
+                        </div>
+                      </div> <!-- / .row -->
+
+                    </div> <!-- / .card-body -->
+                  </div>
+                  
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                        <a href="project-overview.html">
+                          <img src="assets/img/avatars/projects/macif.jpg" alt="..." class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                          <div class="row align-items-center">
+                            <div class="col">
+                          
+                              <!-- Title -->
+                              <h4 class="card-title mb-2 name">
+                                <a href="project-overview.html">Macif  Project </a>
+                              </h4>
+    
+                              <!-- Subtitle -->
+                             
+    
+                            </div>
+                            <div class="col-auto">
+                              
+                              <!-- Dropdown -->
+                              <div class="dropdown">
+                                <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <i class="fe fe-more-vertical"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                  <a href="#!" class="dropdown-item">
+                                    Action
+                                  </a>
+                                  <a href="#!" class="dropdown-item">
+                                    Another action
+                                  </a>
+                                  <a href="#!" class="dropdown-item">
+                                    Something else here
+                                  </a>
+                                </div>
+                              </div>
+    
+                            </div>
+                          </div> <!-- / .row -->
+    
+                          <!-- Divider -->
+                          <hr>
+    
+                          <div class="row align-items-center">
+                            <div class="col">
+                              <div class="row align-items-center no-gutters">
+                                <div class="col-auto">
+    
+                                  
+                                  
+                                </div>
+                                
+                              </div> <!-- / .row -->
+                            </div>
+                            <div class="col-auto">
+                              
+                              <!-- Avatar group -->
+                              <div class="avatar-group">
+                                
+                                
+                                
+                                
+                              </div>
+    
+                            </div>
+                          </div> <!-- / .row -->
+    
+                        </div> <!-- / .card-body -->
+                      </div>
+                      
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="card">
+                            <a href="project-overview.html">
+                              <img src="assets/img/avatars/projects/cdiscount.jpg" alt="..." class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                              <div class="row align-items-center">
+                                <div class="col">
+                              
+                                  <!-- Title -->
+                                  <h4 class="card-title mb-2 name">
+                                    <a href="project-overview.html">CDiscount Project </a>
+                                  </h4>
+        
+                                  <!-- Subtitle -->
+                                 
+        
+                                </div>
+                                <div class="col-auto">
+                                  
+                                  <!-- Dropdown -->
+                                  <div class="dropdown">
+                                    <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fe fe-more-vertical"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                      <a href="#!" class="dropdown-item">
+                                          Share with Twitter
+                                      </a>
+                                      <a href="#!" class="dropdown-item">
+                                          Share with Facebook                                      </a>
+                                      <a href="#!" class="dropdown-item">
+                                       Share with Twitter
+
+                                       <p>Open link in a new window or tab: </p>
+
+                                      </a>
+                                    </div>
+                                  </div>
+        
+                                </div>
+                              </div> <!-- / .row -->
+        
+                              <!-- Divider -->
+                              <hr>
+        
+                              <div class="row align-items-center">
+                                <div class="col">
+                                  <div class="row align-items-center no-gutters">
+                                    <div class="col-auto">
+        
+                                      some text
+                                      
+                                    </div>
+                                    
+                                  </div> <!-- / .row -->
+                                </div>
+                                <div class="col-auto">
+                                  
+                                  <!-- Avatar group -->
+                                  <div class="avatar-group">
+                                    
+                                    
+                                    
+                                    
+                                  </div>
+        
+                                </div>
+                              </div> <!-- / .row -->
+        
+                            </div> <!-- / .card-body -->
+                          </div>
+                          
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+
+                  
+ 
+                          
+                           
+                          
+                          <!-- Avatar -->
+                         
+
+                        </div>
+                        <div class="col ml-n2">
+
+                          <!-- Title -->
+                          
+
+                          <!-- Text -->
+                        
+
+                          <!-- Progress -->
+                          <div class="row align-items-center no-gutters">
+                            <div class="col-auto">
+
+                               
+                            </div>
+                        
+                      </div> <!-- / .row -->
+                    </div> <!-- / .card-body -->
+                  </div>
+                
+                </div>
+                
+              </div> <!-- / .row -->
+            </div>
+          </div> <!-- / .tab-content -->
+
+        </div>
+      </div>
+
+    </div> <!-- / .main-content -->
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+</html>
