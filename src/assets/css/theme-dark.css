@@ -10975,9 +10975,6 @@ p {
   margin: 0px;
   text-align: left; }
 
-.titles {
-  font-size: 45px; }
-
 .challenge {
   margin-top: 40px;
   width: 70% !important; }
@@ -10990,16 +10987,6 @@ p {
   margin-top: 50px;
   margin-left: 250px; }
 
-.proto {
-  margin-top: 50px; }
-
-.s {
-  color: #E94C4E;
-  margin-right: 200px;
-  padding-top: 0px;
-  font-size: 100px !important;
-  font-weight: 700; }
-
 .bold {
   font-weight: 700;
   margin-top: 100;
@@ -11008,17 +10995,8 @@ p {
 .regular {
   font-weight: 100; }
 
-.typo {
-  width: 70%; }
-
 img {
   margin-top: 20px; }
-
-.prototype {
-  margin-left: 0; }
-
-.proto {
-  margin-left: 250px; }
 
 button {
   margin-top: 50px; }
