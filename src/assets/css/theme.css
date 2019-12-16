@@ -10944,11 +10944,16 @@ p {
 .regular {
   font-weight: 100; }
 
-img {
-  margin-top: 20px; }
-
 button {
   margin-top: 50px; }
 
 .empathise {
   margin-top: 50px; }
+
+.title-red-shiseido {
+  color: #E94C4E; }
+
+.list {
+  font-size: 1.3em;
+  text-align: left !important;
+  text-decoration: none; }
